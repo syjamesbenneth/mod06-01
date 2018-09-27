@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM Manipulation</title>
+</head>
+<body>
+	<h1 id="heading">This is the heading</h1>
+		<button onclick="changeContent()">Click Me</button>
+
+		<!-- <button onclick="document.getElementById('heading').innerHTML = 'javascript' ">Click me</button> -->
+
+	<script type="text/javascript">
+		// comment everything out here
+		const changeContent = () => {
+			document.getElementById("heading").innerHTML = "Hello World";
+		}
+	</script>
+
+	<p id="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<button onclick="lorem()">Click Me</button>
+
+
+	<img id="apple" src="assets/img/holo-the-apple-loving-wolf-hot-anime-crush-24147818-438-436.jpg">
+	<button onclick="">Click Me</button>
+
+	<h2 id="heading2">This is red</h2>
+
+	<script type="text/javascript">
+		const lorem = () => {
+			document.getElementById("lorem").innerHTML = "Not a lorem ipsum";
+		}
+
+		document.getElementById("apple").height = 500;
+
+		document.getElementById("apple").src = "./assets/img/c9ed83821b58b6cb8a563c263dedffbdeae4bac5_hq.jpg"
+
+		document.getElementById("heading2").style.color = "#35f";
+
+		document.getElementById("heading2").style.fontStyle = "italic";
+		document.getElementById("heading2").style.fontWeight = "bold";
+
+	</script>
+
+		
+
+
+
+</body>
+</html>

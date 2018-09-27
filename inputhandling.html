@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input Handilng</title>
+</head>
+<body>
+
+	<label>Input 1:</label><input type="text" name="name" id="fullname"> <br>
+	<button onclick="getName()">Greet</button>
+
+
+	<input type="number" name="name" id="age">
+	<button onclick="getAge()">Get Age</button>
+	<!-- When button is clicked, alert "Welcome <name> to Batch Day 11" -->
+	<script type="text/javascript">
+		const getName = () =>  {
+			//get the name from the input field.
+			let name = document.getElementById('fullname').value;
+			//alert the message
+			alert("Welcome " + name + " to Batch Day 11");
+		}
+		const getAge = () => {
+			let age = Number(document.getElementById('age').value);
+			age = age + 5; //or age += 5;
+			alert("Age in 5 years is " + age);
+		}
+	</script>
+
+</body>
+</html>

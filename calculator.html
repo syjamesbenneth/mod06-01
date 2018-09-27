@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<label>Input 1:</label><input type="number" id="input1"> 
+<br>
+<br>
+<label>Input 2:</label><input type="number" id="input2">
+<br>
+<br>
+
+<label> Result: <span id="result"></span></label>
+<br>
+
+<br>
+<button onclick="add()">Add</button>
+
+<button onclick="sub()">Subtract</button>
+
+<button onclick="mul()">Multiply</button>
+
+<button onclick="div()">Divide</button>
+
+<button onclick="mod()">Modulo</button>
+
+<script type="text/javascript">
+		
+		// Add
+		const add = () => {
+			let input1 = Number(document.getElementById('input1').value);
+			let input2 = Number(document.getElementById('input2').value);
+
+			document.getElementById('result').innerHTML = input1 + input2;
+			// alert(input1 + input2);
+				}
+
+		// Subtract
+		const sub = () => {
+			let input1 = Number(document.getElementById('input1').value);
+			let input2 = Number(document.getElementById('input2').value);
+
+			document.getElementById('result').innerHTML = input1 - input2;
+
+			// alert(input1 - input2);
+				}
+		// Multiply
+		const mul = () => {
+			let input1 = Number(document.getElementById('input1').value);
+			let input2 = Number(document.getElementById('input2').value);
+
+			document.getElementById('result').innerHTML = input1 * input2;
+
+			// alert(input1 * input2);
+				}
+
+		// Divide
+		const div = () => {
+			let input1 = Number(document.getElementById('input1').value);
+			let input2 = Number(document.getElementById('input2').value);
+
+			document.getElementById('result').innerHTML = input1 / input2;
+			// alert(input1 / input2);
+				}
+
+		// Mod
+		const mod = () => {
+			let input1 = Number(document.getElementById('input1').value);
+			let input2 = Number(document.getElementById('input2').value);
+
+			document.getElementById('result').innerHTML = input1 % input2;
+			// alert(input1 % input2);
+				}
+
+			</script>
+
+</body>
+</html>

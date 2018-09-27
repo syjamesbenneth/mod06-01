@@ -1,0 +1,150 @@
+create a folder mod06-01
+create the necessary files
+add script.js in the assets/js folder
+
+inside the script tag
+
+	<script type="text/javascript">
+		document.getElementById('heading').innerHTML = "javascript"
+		console.log("This should appear in the console");
+		alert("This is an alert");
+		document.getElementById("content").innerHTML = "Hello World";
+	</script>
+
+		<!-- <button onclick="document.getElementById('heading').innerHTML = 'javascript' ">Click me</button> -->
+		
+
+	ES6 function syntax:
+	const <function name> = () => {
+		//instructions here
+	}
+
+1.create a p element with id lorem and lorem ipsum as its text
+2. create a button that should change the text in the p element to "not a lorem ipsum anymore" 
+3. use ES6 notation
+
+
+document.getElementById("css").style.color = "#35f";
+
+change h2's font style to bold and italics
+
+xxx
+"Javascript can show or hide elements"
+ -2 buttons, one for Show All, Hide all
+ - Hide All Clicked, hide all sections below
+ - Show all clicked, show all sections below
+
+ -"Javascript can change html element"
+ 	-button, change content
+ 	-change content clicked, changes text to "hello world"
+
+ javascript can change HTML attributes
+ -1 image
+ 2 buttons, Change height, change image
+ -change height is clicked, change image height
+ change image is clicked, change image source
+
+ javascript can change css style,
+ -button, change CSS
+ make the text red and font-style to italic
+xxxxx
+
+mouse events
+
+Keyboard events
+
+form events
+xxxx
+
+assign/output first before add/subtract
+
+Logical AND (&&) - all needs to be true
+Logical OR (|| - at least one true
+Logical NOT (!)	 - 
+
+Logical AND (&&)	expr1 && expr2	Returns expr1 if it can be converted to false; otherwise, returns expr2. Thus, when used with Boolean values, && returns true if both operands are true; otherwise, returns false.
+
+Logical OR (||)	expr1 || expr2	Returns expr1 if it can be converted to true; otherwise, returns expr2. Thus, when used with Boolean values, || returns true if either operand is true.
+
+Logical NOT (!)	!expr	Returns false if its single operand can be converted to true; otherwise, returns true.
+
+xxxx
+
+Input handling
+
+
+
+ <script type="text/javascript">
+	function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>.
+
+
+
+<style>
+    .hide img {display: none}
+</style>
+
+<head>
+	<title></title>
+</head>
+<body>
+
+<p>p</p>
+<p>abc</p>
+<img src="http://placehold.it/100x100">
+<img src="http://placehold.it/100x100">
+<button id="button">SHOW/HIDE</button>
+
+
+<button></button>
+
+
+<h1 id="id1">My Heading 1</h1>
+
+<button type="button" 
+onclick="document.getElementById('id1').style.color = 'red'">
+Click Me!</button>
+
+
+
+<script>
+    var button = document.getElementById('button');
+    var body = document.body;
+
+    button.onclick = function() {
+        body.className = body.className == 'hide' ? '' : 'hide';
+    }
+</script>
+
+
+
+<img id="img2" src="assets/img/holo-the-apple-loving-wolf-hot-anime-crush-24147818-438-436.jpg">
+
+<script type='text/javascript'>
+    function onclick() {
+    document.getElementById('img2').style.width="600px";
+    document.getElementById('img2').style.height="600px";
+    }       
+</script>
+
+
+
+<img id="apple" src="assets/img/holo-the-apple-loving-wolf-hot-anime-crush-24147818-438-436.jpg">
+	<button onclick="">Click Me</button>
+
+
+<script type="text/javascript">
+	
+</script>
+
+
+const changeStyle = () =>
+	document.getElementbyId
+	document.getElementbyId
